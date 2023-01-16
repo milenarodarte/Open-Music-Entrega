@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script defer src="./scripts/theme.js"></script>
+    <script defer src="./pages/home/productsData.js"></script>
+    <script defer src="./scripts/script.js"></script>
+    <script defer src="./scripts/darkMode.js"></script>
+    <script defer src="./pages/home/index.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/button.css">
+    <link rel="stylesheet" href="./styles/globalStyles.css" />
+    <link rel="stylesheet" href="./pages/home/index.css" />
+    <title>Open Music</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1 class="icon">open music</h1>
+        <button class="darkMode"><img class="modo-noturno" src=""></button>
+      </header>
+      <div class="genero">
+        <h2 class="titulo-genero-musical">Gênero Musical</h2>
+        <div class="todos-os-generos">
+          <button class="generos-musicais botao" id="Todos">Todos</button>
+          <button class="generos-musicais botao" id="Pop">Pop</button>
+          <button class="generos-musicais botao" id="MPB">MPB</button>
+          <button class="generos-musicais botao" id="Forró">Forró</button>
+          <button class="generos-musicais botao" id="Samba">Samba</button>
+          <button class="generos-musicais botao" id="Baião">Baião</button>
+          <button class="generos-musicais botao" id="Rap">Rap</button>
+          <button class="generos-musicais botao" id="Hip-hop">Hip-hop</button>
+          <button class="generos-musicais botao" id="Rock">Rock</button>
+          <button class="generos-musicais botao" id="Reggae">Reggae</button>
+          <button class="generos-musicais botao" id="Country">Country</button>
+          <button class="generos-musicais botao" id="Gospel">Gospel</button>
+        </div>
+      </div>
+      <div class="procurar-preco">
+        <div class="header-precos">
+          <h2 class="definir-preco">Definir Preço</h2>
+          <h2 class="preco-maximo">Até R$240</h2>
+        </div>
+        <input  class="input-range" type="range" id="valor-produtos" name="valor-produtos" min="0" max="240">
+      </div>
+
+      <div class="encontrados">
+       
+        <h2 class="titulo-albuns-encontrados">Albuns Encontrados</h2>
+        <ul class="albuns-encontrados">
+
+         <!--  <li class="albuns">
+
+            <img src="./assets/img/1.jpg" class="img-album">
+            <div class="tags-albuns">
+              <p class="banda">scalene</p>
+              <p class="ano-lancamento">2017</p>
+            </div>
+            <h2 class="nome-album">Magnetite</h2>
+            <div class="footer-card">
+              <p class="preco">R$70</p>
+              <button class="botao-comprar botao">Comprar</button>
+            </div>
+          </li> -->
+
+        </ul>
+        
+
+      </div>
+
+    </main>
+    
+  </body>
+</html>

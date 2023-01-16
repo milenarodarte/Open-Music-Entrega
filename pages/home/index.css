@@ -1,0 +1,159 @@
+.container {
+    margin: 0 auto;
+}
+.header {
+    height: 2.125rem;
+    
+    width: 40.063rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.813rem;
+    margin-bottom: 3.875rem;
+}
+.icon {
+   height: 2.125rem;
+   width: 9.813rem;
+   font-size: var(--font-1);
+   font-weight: var(--font-weight-1);
+    color: var(--color-grey-1);
+}
+.modo-noturno {
+    height: 1.125rem;
+    width: 1rem;
+}
+.darkMode{
+    height: 2.25rem;
+    width: 2.25rem;
+    background-color: var(--color-grey-8);
+    border: none;
+}
+.genero {
+    width: 40.063rem;
+    height: 8.688rem;
+    margin-bottom: 3.75rem;
+}
+.titulo-genero-musical {
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-1);
+    margin-bottom: 1.5rem;
+    color: var(--color-grey-1);
+}
+.todos-os-generos {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.875rem;
+    flex-wrap: wrap;
+}
+.procurar-preco{
+    width: 40.063rem;
+    height:4.188rem;
+    margin-bottom: 3.75rem;
+
+}
+.header-precos {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.definir-preco {
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-1);
+    height: 1.188rem;
+    margin-bottom: 1.5rem;
+    color: var(--color-grey-1);
+}
+.preco-maximo {
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-2);
+    color: var(--color-grey-1);
+}
+.input-range{
+    width: 40.063rem;
+    
+    accent-color: var(--color-brand-1);
+    
+    
+   
+   
+}
+.encontrados{
+    width: 40.063rem;
+    border-radius: 0.25rem;
+}
+.titulo-albuns-encontrados{
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-1);
+    height: 1.188rem;
+    margin-bottom: 3.75rem;
+    color: var(--color-grey-1);
+}
+.albuns-encontrados{
+    width: 40.063rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.563rem;
+}
+.albuns{
+    max-width: 19.25rem;
+    height:16.188rem;
+    border-radius: 0.25rem;
+    background-color: var(--color-grey-8) ;
+    margin-bottom: 2.375rem;
+   
+}
+.img-album{
+    width: 19.25rem;
+    height: 7.063rem;
+    border-radius: 0.25rem;
+}
+
+.banda{
+    color: var(color-grey-2);
+    font-size: var(--font-3);
+    height:0.938rem ;
+    color: var(--color-grey-1);
+
+}
+.ano-lancamento{
+    color: var(color-grey-2);
+    font-size: var(--font-3);
+    height:0.938rem ;
+    color: var(--color-grey-1);
+}
+.tags-albuns{
+    display: flex;
+    
+    height: 0.938rem;
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+    margin-left: 1rem;
+
+}
+
+.nome-album {
+    margin-bottom: 1.25rem;
+    margin-left: 1rem;
+    margin-top: 1.25rem;
+    color: var(--color-grey-1);
+}
+.footer-card{
+    padding-top: 0.438rem;
+    padding-bottom: 0.438rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+.preco{
+    font-size: var(--font-3);
+    font-weight: var(--font-weight-2);
+    color: var(--color-grey-1);
+}
+.show-card {
+    display: flex;
+}
+.riden-card{
+    display: none;
+}
